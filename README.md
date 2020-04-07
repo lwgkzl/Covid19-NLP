@@ -31,7 +31,18 @@ with open('COVID_Dialogue_Dataset.pk','rb') as f:
     data = pickle.load(f)
 data[0]
 ```
-The dataset is built from [春雨医生](https://www.chunyuyisheng.com/) and all copyrights of the data belong to [春雨医生](https://www.chunyuyisheng.com/).<br>
+The dataset is built from [chunyu](https://www.chunyuyisheng.com/) and all copyrights of the data belong to [chunyu](https://www.chunyuyisheng.com/).<br>
+
+If you find this dataset useful, please cite:
+
+```
+@article{liu2020Covid19_Dialog,
+  title={Chinese_Covid19_Dialog: Chinese Medical Dialogue Datasets about COVID-19},
+  author={Wenge Liu and Lin xu and Xiaodan Liang},
+  journal={ https://github.com/lwgkzl/COVID19_Language_Understanding}, 
+  year={2020}
+}
+```
 
 # COVID19_Language_Understanding: Papers
 TODO.
