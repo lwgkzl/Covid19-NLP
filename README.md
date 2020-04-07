@@ -1,7 +1,7 @@
 # COVID19_Language_Understanding: Datasets
-We are collecting the COVID-19 Language-based AI research papers and datasets. If you have paper to recommend or any suggestions, please feel free to contact us.
+### We are collecting the COVID-19 Language-based AI research papers and datasets. If you have paper to recommend or any suggestions, please feel free to contact us.
 
-1.We released a Chinese medical dialogue dataset about COVID-19 and other types of pneumonia. Patients who are concerned that they may be infected by COVID-19 or other pneumonia consult doctors and doctors provide advice. There are 12789 consultations and each consultation has at least 8 senteces.
+1. We released a Chinese medical dialogue dataset about COVID-19 and other types of pneumonia. Patients who are concerned that they may be infected by COVID-19 or other pneumonia consult doctors and doctors provide advice. There are *12789* consultations and each consultation has at least 8 senteces.
 The whole file is a python list, and each item in the list is a dictionary，as shown below
 ## Example
 [{'id': 'dis', 'text': '医生您好！发烧两天，最高38.7，头痛，全身酸疼乏力，不咳嗽，不流涕，呼吸无异常。现已退烧，头痛基本消失，但是咽喉及中央气管略有灼烧疼，胸口两侧对称跳着疼，头顶头皮一处跳着疼，左腹一处偶尔也跳着疼，无力，不爱吃饭。无湖北接触史，偶尔外出去超市采购，都戴口罩。前段时间压力大，连续一周熬夜做文字工作。请问这是什么情况啊？是不是新冠肺炎？谢谢医生！（男，35岁）'} <br>
@@ -31,5 +31,7 @@ with open('COVID_Dialogue_Dataset.pk','rb') as f:
     data = pickle.load(f)
 data[0]
 ```
+The dataset is built from [春雨医生](https://www.chunyuyisheng.com/) and all copyrights of the data belong to [春雨医生](https://www.chunyuyisheng.com/).<br>
+
 # COVID19_Language_Understanding: Papers
 TODO.
