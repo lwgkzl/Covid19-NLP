@@ -38,7 +38,7 @@ If you find this dataset useful, please cite:
 
 ```
 @article{liu2020Covid19_Dialog,
-  title={Chinese_Covid19_Dialog: Chinese Medical Dialogue Datasets about COVID-19},
+  title={CovidDialog-CH: Chinese Medical Dialogue Dataset for COVID19 Consultant},
   author={Wenge Liu and Lin Xu and Jianheng Tang and Shuai Lin and Junfan Lin and Xiaodan Liang},
   journal={ https://github.com/lwgkzl/COVID19_Language_Understanding}, 
   year={2020}
