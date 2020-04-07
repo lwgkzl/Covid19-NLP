@@ -26,10 +26,10 @@ The whole file is a python list, and each item in the list is a dictionary，as 
 {'id': 'doc', 'text': '不客气'}]<br>
 
 The code for read "COVID_Dialogue_Dataset.pk":<br>
-`
-with open('COVID_Dialogue_Dataset.pk','rb') as f: <br>
-    data = pickle.load(f) <br>
-data[0] <br>
-`
+```python
+with open('COVID_Dialogue_Dataset.pk','rb') as f:
+    data = pickle.load(f)
+data[0]
+```
 # COVID19_Language_Understanding: Papers
 TODO.
