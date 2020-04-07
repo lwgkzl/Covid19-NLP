@@ -1,4 +1,4 @@
-# COVID19_Language_Understanding: Datasets
+# COVID19_Language_Resources: Datasets
 We are collecting the COVID-19 Language-based AI research papers and datasets. If you have paper to recommend or any suggestions, please feel free to contact us.
 
 #### 1. We released a Chinese medical dialogue dataset about COVID-19 and other types of pneumonia. Patients who are concerned that they may be infected by COVID-19 or other pneumonia consult doctors and doctors provide advice. There are *12789* consultations and each consultation has at least 8 senteces.
@@ -45,5 +45,5 @@ If you find this dataset useful, please cite:
 }
 ```
 
-# COVID19_Language_Understanding: Papers
+# COVID19_Language_Resources: Papers
 TODO.
